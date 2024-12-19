@@ -1,14 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
-  SiPhpstorm,
-  SiDatagrip,
-} from "react-icons/si";
+import { SiLinux,SiPostman,SiHeroku,SiVercel,SiPhpstorm,SiDatagrip} from "react-icons/si";
+import {DiVisualstudio} from "react-icons/di";
+
 
 function Toolstack() {
   return (
@@ -17,7 +11,7 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <DiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
