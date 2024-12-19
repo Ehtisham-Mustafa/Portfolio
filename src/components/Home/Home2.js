@@ -17,33 +17,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I am a dedicated and passionate full-stack developer with a deep love for programming and technology. 
+            Over the years, I have refined my skills and developed a strong foundation in creating innovative and impactful solutions.
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> PHP, Javascript and Python. </b>
-              </i>
+              <br />I am fluent in classic programming languages like PHP, Laravel, Python, Django and React. 
+              I leverage these skills to build robust and scalable web applications.My expertise spans both front-end and back-end development, 
+              allowing me to deliver comprehensive, end-to-end solutions that meet the needs of clients and users alike.
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> 
-              </i>
+              <i><b className="purple"> PHP, Laravel, Python, Django and React </b></i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> PHP Laravel, React.js, Next.js</b>
-              </i>
+              My primary areas of interest include exploring and building new &nbsp;
+              <i><b className="purple">Web Technologies </b>  </i> 
+              &nbsp; and crafting innovative digital products.
+              <br />
+              <br />
+              I am particularly enthusiastic about developing with modern frameworks and tools such as PHP Laravel,
+               React.js, Python Django and Next.js. These technologies allow me to combine functionality with seamless user experiences,
+               creating dynamic and engaging web applications.
+          
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
