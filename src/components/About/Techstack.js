@@ -9,6 +9,7 @@ import {
   DiPhp,
   DiGit,
   DiLaravel,
+  DiDjango,
 } from "react-icons/di";
 import {
   SiNextdotjs,
@@ -18,21 +19,24 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+       <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
+        <DiNodejs />
+      </Col>  
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
@@ -43,11 +47,9 @@ function Techstack() {
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
-      </Col>
+     
     </Row>
   );
 }

@@ -9,10 +9,15 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ehtisham Mustafa </span>
-            from <span className="purple"> Hafizabad, Pakistan.</span>
-            <br />I am a Software Engineer with a passion for building and designing web applications. I have a Bachelor's degree in Computer Science from University of Engineering and Technology, Lahore. I have been working as a Software Engineer for the past 1 year. I have worked on a variety of projects using different technologies. I am a quick learner and I am always ready to learn new technologies. I am a team player and I am always ready to work in a team. I am a hard worker and I am always ready to work under pressure.
+            <br />A passionate and dedicated Software Engineer with a Bachelor's degree in Computer Science from the University of Engineering and Technology, Lahore.
+             Over the years, I have been honing my skills by working on diverse projects,
+             utilizing a range of modern technologies to create impactful web applications.
             <br />
+            I pride myself on being a quick learner, always eager to embrace new technologies and frameworks. My collaborative nature makes me an effective team player,
+             and I thrive in dynamic environments where I can contribute to innovative solutions. 
+            With a strong work ethic, I excel under pressure and consistently deliver high-quality results.
             <br />
+            <br/>
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>

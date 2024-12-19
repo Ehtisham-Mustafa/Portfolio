@@ -7,6 +7,7 @@ import {
   SiHeroku,
   SiVercel,
   SiPhpstorm,
+  SiDatagrip,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -29,6 +30,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPhpstorm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDatagrip />
       </Col>
     </Row>
   );
