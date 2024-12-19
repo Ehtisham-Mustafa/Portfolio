@@ -1,11 +1,11 @@
 import React from "react";
-import Particles from "react-tsparticles";
+import { Particles } from "@tsparticles/react";
 
 function Particle() {
   return (
     <Particles
       id="tsparticles"
-      params={{
+      options={{
         particles: {
           number: {
             value: 160,
@@ -14,7 +14,7 @@ function Particle() {
               value_area: 1500,
             },
           },
-          line_linked: {
+          lineLinked: {
             enable: false,
             opacity: 0.03,
           },
@@ -35,14 +35,14 @@ function Particle() {
         },
         interactivity: {
           events: {
-            onclick: {
+            onClick: {
               enable: true,
               mode: "push",
             },
           },
           modes: {
             push: {
-              particles_nb: 1,
+              quantity: 1,
             },
           },
         },
